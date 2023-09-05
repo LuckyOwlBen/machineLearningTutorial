@@ -1,0 +1,34 @@
+Copy code
+# Ignore node_modules directory
+node_modules/
+
+#Ignore test data
+data/raw/
+# Ignore npm-debug.log and yarn-error.log files
+npm-debug.log
+yarn-error.log
+
+# Ignore .env files that may contain sensitive information
+.env
+
+# Ignore .DS_Store files (macOS-specific)
+.DS_Store
+
+# Ignore any build or compiled output
+/build/
+/dist/
+/out/
+/.next/
+/.nuxt/
+
+# Ignore log files
+*.log
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
